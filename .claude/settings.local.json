@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd \"C:\\\\Users\\\\alexa\\\\Documents\\\\Claude\\\\pushups-app\" && npm create vite@latest . -- --template react-ts 2>&1)",
+      "Bash(cd \"C:\\\\Users\\\\alexa\\\\Documents\\\\Claude\\\\pushups-app\" && npx --yes create-vite@latest temp-scaffold --template react-ts 2>&1)",
+      "Bash(cd \"C:\\\\Users\\\\alexa\\\\Documents\\\\Claude\\\\pushups-app\" && npm install 2>&1)",
+      "Bash(cd \"C:\\\\Users\\\\alexa\\\\Documents\\\\Claude\\\\pushups-app\" && npm install -D tailwindcss @tailwindcss/vite 2>&1)",
+      "Bash(cd \"C:\\\\Users\\\\alexa\\\\Documents\\\\Claude\\\\pushups-app\" && npx tsc --noEmit 2>&1)",
+      "Bash(cd \"C:\\\\Users\\\\alexa\\\\Documents\\\\Claude\\\\pushups-app\" && npx vite build 2>&1)",
+      "Bash(cd /c/Users/alexa/Documents/Claude/pushups-app && npx tsc --noEmit 2>&1)",
+      "Bash(cd /c/Users/alexa/Documents/Claude/pushups-app && npm run build 2>&1)",
+      "Bash(cd /c/Users/alexa/Documents/Claude/pushups-app && npm run dev 2>&1)"
+    ]
+  }
+}
