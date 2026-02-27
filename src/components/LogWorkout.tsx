@@ -157,7 +157,7 @@ function ActiveSessionView({ session }: { session: SessionProps }) {
       <div className="bg-surface rounded-xl px-4 py-3 flex items-center justify-between border border-border">
         <div className="flex items-center gap-3">
           <div className={`w-2 h-2 rounded-full ${session.isPaused ? 'bg-yellow-400' : 'bg-green-400 animate-pulse'}`} />
-          <span className="font-mono text-xl font-bold text-text">{formatTimer(session.elapsed)}</span>
+          <span className="font-mono text-4xl font-bold text-text">{formatTimer(session.elapsed)}</span>
         </div>
         <div className="flex gap-2">
           {session.isPaused ? (
